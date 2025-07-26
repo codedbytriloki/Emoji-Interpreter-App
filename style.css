@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  text-align: center;
+  background: #f0f0f0;
+}
+.container{
+  width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px 30px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+h2{
+  color: rgb(59, 79, 117);
+}
+.emoji-grid{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 0.5rem;
+ margin: 2rem 0;
+}
+.emoji{
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+.emoji:hover{
+  background-color: #d4daed;
+}
+.emoji.active{
+  border: 2px solid #4675bf;
+}
+#meaning{
+  font-weight: 600;
+  color: #063582;
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
